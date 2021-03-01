@@ -11,13 +11,18 @@ def quadratic(a, b, c):
     return solutions
 
 
+
+
+
+
+
 # Asks the user to input their values for a, b and c
 
 print("Quadratic function solver! Enter your values for a, b and c")
 print("where ax^2 + bx + c")
 a = float(input("Enter a:"))
 b = float(input("Enter b:"))
-c = float(input("Enter b:"))
+c = float(input("Enter c:"))
 
 # Calls for the function quadratic
 
@@ -35,3 +40,4 @@ elif len(solutions1) == 1:
         print("x =" + str(each))
 elif len(solutions1) == 0:
     print("There are %s real solutions to the function %sx^2 + %sx + %s" % (str(len(solutions1)), str(a), str(b), str(c) + ":"))
+

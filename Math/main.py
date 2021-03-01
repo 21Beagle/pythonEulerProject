@@ -11,12 +11,12 @@ def quadratic(a,b,c):
     return solutions
 
 
-
+print(((25-18.5)/2)+18.5)
 print("Quadratic function solver! Enter your values for a, b and c")
 print("where ax^2 + bx + c")
 a = float(input("Enter a:"))
 b = float(input("Enter b:"))
-c = float(input("Enter b:"))
+c = float(input("Enter c:"))
 
 solutions = quadratic(a,b,c)
 
